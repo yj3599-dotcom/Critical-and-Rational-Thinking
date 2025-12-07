@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THE INITIATION: Ethical Protocol Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="status-bar">
+        <div class="status-item">TEST SUBJECT: <span style="color:#fff">CANDIDATE-01</span></div>
+        <div class="status-item">ROUND: <span id="round-display">1 / 8</span></div>
+        <div class="status-item">TIME REMAINING: <span id="timer">120</span>s</div>
+    </div>
+
+    <div id="log-reminder">
+        *REMINDER: UPDATE YOUR GAME LOG IMMEDIATELY AFTER EACH CHOICE.
+    </div>
+
+    <div id="bottom-panel">
+        <div id="scenario-text">INITIALIZING SYSTEM...</div>
+        <div id="instruction-text">
+            Use your mouse to grab the falling blocks.<br>
+            <span class="highlight">CLICK</span> on a block to make your decision.
+        </div>
+    </div>
+
+    <div id="overlay">
+        <h1>THE INITIATION</h1>
+        <p>Welcome to <strong>The Architects</strong>.</p>
+        <p>We maintain order in a chaotic world. To join us, you must prove your capacity to make difficult decisions.</p>
+        <p>8 Scenarios. 2 Minutes per round. <br>Your choices will determine your department.</p>
+        <button class="btn" onclick="startGame()">BEGIN TEST</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
